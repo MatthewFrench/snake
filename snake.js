@@ -123,7 +123,7 @@ Snake.prototype.update = function() {
 Snake.prototype.loop = function() {
   this.update();
   this.render();
-}
+};
 
 
 new Snake();
